@@ -1,0 +1,32 @@
+.text {
+  color: var(--background);
+}
+
+.button {
+  /* margin-right: 20px; */
+  background-color: var(--text-secondary);
+  border: 5px outset var(--border);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: var(--shadow);
+
+  width: 100%;
+
+  font-size: inherit;
+}
+
+.button:hover {
+  background-color: var(--text-primary);
+  border: 5px outset var(--border);
+}
+
+.button:active {
+  background-color: var(--border);
+  border: 5px solid var(--border);
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,41 @@
+@import url("../../styles/var.css");
+
+.header {
+}
+
+.profile_image {
+  justify-self: end;
+
+  border-radius: 50px;
+
+  display: flex;
+
+  width: 70px;
+  height: 70px;
+}
+
+.profile_area_div {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  flex-direction: row-reverse;
+
+  gap: 15px;
+}
+
+.background {
+  padding: 20px 40px;
+
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--accent);
+}

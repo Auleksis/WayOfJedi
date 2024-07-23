@@ -1,0 +1,140 @@
+@import url("/src/styles/var.css");
+@import url("/src/styles/text.css");
+@import url("/src/styles/pages.css");
+
+.me_container {
+  display: flex;
+  gap: 40px;
+}
+
+.me_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.me_text {
+  margin: 0;
+  font-size: 30px;
+}
+
+.me_image {
+  border-radius: 100px;
+  max-height: 400px;
+  box-shadow: var(--shadow);
+}
+
+.example_div {
+  display: flex;
+  gap: 40px;
+}
+
+.list {
+  width: 50%;
+  font-size: 38px;
+  max-height: 400px;
+  color: var(--background);
+
+  overflow-y: scroll;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-v2-primary) transparent;
+}
+
+.list_item {
+  padding: 0 10px;
+  width: 100%;
+
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+
+.list_item::before {
+  content: "";
+  background-color: var(--text-primary);
+}
+
+.details_div {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--text-secondary);
+  border: 5px outset var(--border);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: var(--shadow);
+
+  width: 50%;
+
+  height: 400px;
+}
+
+.comment_div {
+  max-width: 100%;
+
+  height: 80%;
+
+  padding: 0 10px;
+
+  overflow-y: scroll;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--background) transparent;
+}
+
+.comment_div .text {
+  color: var(--background);
+  font-size: 28px;
+}
+
+.button_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+
+.mark {
+  /* margin-right: 20px; */
+  background-color: var(--accent);
+  color: var(--background);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: var(--shadow);
+
+  width: 100%;
+
+  font-size: inherit;
+}
+
+.mark:hover {
+  background-color: var(--text-primary);
+}
+
+.mark:active {
+  background-color: var(--border);
+  border: 5px solid var(--border);
+}
+
+.mark .text {
+  text-indent: 0;
+  text-align: center;
+  color: var(--background);
+}
+
+@media screen and (max-width: 1200px) {
+  .me_text {
+    font-size: 24px;
+  }
+
+  .me_image {
+    max-height: 300px;
+  }
+
+  .list {
+    font-size: 28px;
+  }
+
+  .list_item {
+  }
+}

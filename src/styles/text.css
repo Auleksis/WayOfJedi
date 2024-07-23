@@ -1,0 +1,64 @@
+.text {
+  margin: 0;
+  font-size: 38px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.intro {
+  margin: 0;
+  align-self: center;
+  font-size: 24px;
+}
+
+.title {
+  margin: 40px;
+  font-size: 102px;
+  text-align: center;
+  color: var(--text-primary);
+  text-shadow: var(--sword-light) 0 0 10px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 38px;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.subtitle2 {
+  margin: 0;
+  font-size: 38px;
+  text-indent: 30px;
+  text-align: center;
+}
+
+.glowing_text {
+  text-shadow: var(--sword-light) 0 0 10px;
+}
+
+.underlined_text {
+  text-decoration: underline;
+}
+
+.centered_text {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 80px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .subtitle2 {
+    font-size: 28px;
+  }
+}

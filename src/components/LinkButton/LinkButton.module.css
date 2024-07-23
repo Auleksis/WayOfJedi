@@ -1,0 +1,12 @@
+@import url("/src/styles/var.css");
+
+.link {
+  color: var(--text-primary);
+}
+
+.link:hover {
+  color: var(--background);
+}
+
+.text {
+}
