@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import s from "./Switch.module.css";
 
 type ChangeEvent = React.ChangeEvent<HTMLInputElement>;

@@ -8,7 +8,7 @@ import LinkButton from "../LinkButton/LinkButton";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const [theme, handleChange] = useTheme("light");
+  const [, handleChange] = useTheme("light");
 
   const navigate = useNavigate();
 

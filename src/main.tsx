@@ -4,7 +4,6 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./pages/AboutPage/AboutPage.tsx";
-import WayPage from "./pages/WayPage/WayPage.tsx";
 
 const router = createBrowserRouter([
   {

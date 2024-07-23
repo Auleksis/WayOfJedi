@@ -1,5 +1,4 @@
 import Button from "../../components/Button/Button";
-import WayPage from "../WayPage/WayPage";
 import s from "./AboutPage.module.css";
 import Me from "/src/assets/images/me2.jpg";
 
