@@ -1,7 +1,7 @@
 import s from "./App.module.css";
 import Header from "./components/Header/Header";
-import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+import AboutPage from "./pages/AboutPage/AboutPage";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 
       <div className={s.main_container}>
         <div className={s.outlet}>
-          <Outlet />
+          <AboutPage />
         </div>
         <Footer />
       </div>

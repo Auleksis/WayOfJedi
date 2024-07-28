@@ -27,10 +27,21 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  background-color: var(--background);
   color: var(--text-primary);
 
   font-family: "Exo2", sans-serif;
+}
+
+body::before {
+  content: "";
+  background-color: var(--background);
+  z-index: -2;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 h1 {

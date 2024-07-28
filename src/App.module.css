@@ -56,6 +56,26 @@
   scrollbar-color: var(--text-v2-primary) transparent;
 }
 
+.main_container::before {
+  content: "";
+  background-image: url("/src/assets/images/back3.jpg");
+  background-size: cover;
+
+  filter: var(--filter) opacity(40%);
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
 .outlet {
   min-height: 90vh;
+}
+
+.body {
+}
+
+.body::before {
 }

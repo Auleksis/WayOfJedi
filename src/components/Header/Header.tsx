@@ -19,9 +19,9 @@ const Header = () => {
   return (
     <>
       <div className={s.background}>
-        <h1 className={s.header}>
+        <a className={s.header} href="">
           <b>WAY OF JEDI</b>
-        </h1>
+        </a>
 
         <div className={s.profile_area_div}>
           <Button text="Start Way" handleClick={navigateToWay} />

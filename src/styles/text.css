@@ -16,7 +16,8 @@
   font-size: 102px;
   text-align: center;
   color: var(--text-primary);
-  text-shadow: var(--sword-light) 0 0 10px;
+  text-shadow: 0px 5px 10px var(--sword-light), 0px -5px 10px var(--sword-light),
+    5px 0px 10px var(--sword-light), -5px 0px 10px var(--sword-light);
 }
 
 .subtitle {
@@ -34,7 +35,8 @@
 }
 
 .glowing_text {
-  text-shadow: var(--sword-light) 0 0 10px;
+  text-shadow: 0px 2px 3px var(--sword-light), 0px -2px 3px var(--sword-light),
+    2px 0px 3px var(--sword-light), -2px 0px 3px var(--sword-light);
 }
 
 .underlined_text {
